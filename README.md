@@ -18,17 +18,17 @@ if not the app will only render correctly when users have a screen size similar 
   
   <tr>
     <td width="50%" valign="top">
-<a target="_blank" href="https://github.com/Pressedj">Juniper</a>
+<a target="_blank" href="https://github.com/Pressedj" align="center">Juniper</a>
         <br />
       <a target="_blank" href="https://github.com/Pressedj">
-            <img src="https://avatars.githubusercontent.com/u/88162896?v=4" width="100%" border-radius="50%" alt="Juniper"/>
+            <img src="https://avatars.githubusercontent.com/u/88162896?v=4" width="100%" style="border-radius:50%" alt="Juniper"/>
         </a>
     </td>
     <td width="50%" valign="top">
-<a target="_blank" href="https://github.com/numulaa">Nurul</a>
+<a target="_blank" href="https://github.com/numulaa" align="center">Nurul</a>
       <br />
         <a target="_blank" href="https://github.com/numulaa">
-          <img src="https://avatars.githubusercontent.com/u/93779831?v=4" width="100%" border-radius="50%" alt="Nurul"/>
+          <img src="https://avatars.githubusercontent.com/u/93779831?v=4" width="100%" style="border-radius:50%" alt="Nurul"/>
         </a>
     </td>
   </tr>
