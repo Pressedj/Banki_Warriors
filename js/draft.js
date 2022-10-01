@@ -59,4 +59,4 @@ banki = { 'some bank of questions': 'values' }
 //          how is this resolved if more questions are added ?
 //          Behavioral questions are more likely to have a fixed amount:
 //              give index 0 - 100 technical can take the rest?
-//      
+//  Do we need any private properties?
