@@ -60,3 +60,23 @@ banki = { 'some bank of questions': 'values' }
 //          Behavioral questions are more likely to have a fixed amount:
 //              give index 0 - 100 technical can take the rest?
 //  Do we need any private properties?
+//  Possibly: a number system like below:
+
+questionBank = ['t1', 'b1', 't53', 't3', 'b60']
+// when sorted equals: [ "b1", "b60", "t1", "t3", "t53" ]
+//however it stores 2 pieces of info:
+
+let questionNum = 0
+let questionType = ''
+
+questionBank.forEach(function(element){
+    questionNum = element.substring(1)
+    questionType = element[0]
+    console.log(`The question number is: ${questionNum}` +
+        '\n' + `The question type is: ${questionType}`)
+})
+
+//this maybe easier since you could do a filter on the bank
+// would give the total number of questions for each group
+//when a query is made users would simply choose a 
+//number from a bank that has the number t13 or something idk
