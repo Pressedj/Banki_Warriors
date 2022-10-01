@@ -1,4 +1,4 @@
-# Banki_Warriors
+# Banki Warriors
 <p align="center">🛠️ Work in Progress Please Standby 🛠️</p>
 <a href="#projectLink" target="_blank"><img src="readme_images/9-29-22-Figma.jpg" /></a>
 
@@ -6,12 +6,11 @@
 
 
 ## Learning:
-Focused on managing scope, we realize that while there are a lot of features we would like to add
- we need to make sure we manage our time properly in order to finish the main project within a reasonable amount of time.
+Focused on managing scope, we realize that while there are a lot of features we would like to add, we aim to manage our time properly and finish the main project within a reasonable amount of time.
 
 ## Things to pay attention to
-Remember to review and update media queries, making sure everyone can see your content,
-if not the app will only render correctly when users have a screen size similar to the test enviroment.
+- Remember to review and update media queries, making sure everyone can see your content  
+-Without media queries app will only render correctly when users have a screen size similar to the test environment.
 
 ## Contributors:
 <table bordercolor="#66b2b2">
