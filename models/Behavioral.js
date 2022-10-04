@@ -1,16 +1,20 @@
-const { default: mongoose } = require("mongoose");
-const Mongoose = require("mongoose");
+const mongoose = require("mongoose");
 const BehavioralSchema = new mongoose.Schema({
-  questionT: {
+  behavioralQuestion: {
     type: String,
     required: true,
   },
-  answerT: {
+  behavioralAnswer: {
     type: String,
     required: true,
   },
-  defaultAnswerT: {
+  behavioralDefaultAnswer: {
+    type: String,
+    required: true,
+  },
+  behavioralReference: {
     type: String,
     required: true,
   },
 });
+module.exports = mongoose.model("Behavioral", BehavioralSchema);
