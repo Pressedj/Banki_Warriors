@@ -16,5 +16,9 @@ const TechnicalSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  technicalCompleted: {
+    type: Boolean,
+    required: true,
+  },
 });
 module.exports = mongoose.model("Technical", TechnicalSchema);

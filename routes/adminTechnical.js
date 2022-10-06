@@ -1,5 +1,5 @@
 const express = require("express");
 const router = express.Router();
-const behavioralController = require("../controllers/adminBehavioral");
+const adminTechnicalController = require("../controllers/adminTechnical");
 
 module.exports = router;

@@ -4,11 +4,15 @@ const BehavioralSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  behavioralAnswer: {
+  behavioralAnswerExplanation: {
     type: String,
     required: true,
   },
-  behavioralDefaultAnswer: {
+  behavioralAnswerUse: {
+    type: String,
+    required: true,
+  },
+  behavioralAnswerExample: {
     type: String,
     required: true,
   },
@@ -17,4 +21,5 @@ const BehavioralSchema = new mongoose.Schema({
     required: true,
   },
 });
+
 module.exports = mongoose.model("Behavioral", BehavioralSchema);
