@@ -4,20 +4,20 @@ const TechnicalSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  technicalAnswer: {
+  technicalAnswerExplanation: {
     type: String,
     required: true,
   },
-  technicalDefaultAnswer: {
+  technicalAnswerUse: {
+    type: String,
+    required: true,
+  },
+  technicalAnswerExample: {
     type: String,
     required: true,
   },
   technicalReference: {
     type: String,
-    required: true,
-  },
-  technicalCompleted: {
-    type: Boolean,
     required: true,
   },
 });
