@@ -7,9 +7,6 @@ module.exports = {
     try {
       await Behavioral.create({
         behavioralQuestion: req.body.addBehavioralQuestion,
-        behavioralAnswerExplanation: req.body.explanationAnswer,
-        behavioralAnswerUse: req.body.useAnswer,
-        behavioralAnswerExample: req.body.exampleAnswer,
         behavioralReference: req.body.linkAnswer,
       });
       console.log("A new question has been added!");
