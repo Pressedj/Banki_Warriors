@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "dependencies": {
     "dotenv": "^16.0.3",
@@ -11,5 +12,19 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
-  }
+  },
+  "name": "group100hours",
+  "description": "<p align=\"center\">🛠️ Work in Progress Please Standby 🛠️</p>\r <a href=\"#projectLink\" target=\"_blank\"><img src=\"readme_images/9-29-22-Figma.jpg\" /></a>",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pressedj/Banki_Warriors.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pressedj/Banki_Warriors/issues"
+  },
+  "homepage": "https://github.com/Pressedj/Banki_Warriors#readme"
 }
