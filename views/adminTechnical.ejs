@@ -26,6 +26,17 @@
         name="linkAnswer"
       />
       <button type="submit">Submit</button>
+
+      <ul>
+        <!-- technicals here is the object name we've set in adminTechnicalController -->
+        <% technicals.forEach( el => { %>
+        <li class="todoItem" data-id="<%=el._id%>">
+          <span><%= el.technicalQuestion %></span>
+          <!-- technicalQuestion here is the object key of our document in the db -->
+          <span class="del"> Delete </span>
+        </li>
+        <% }) %>
+      </ul>
     </form>
   </body>
 </html>

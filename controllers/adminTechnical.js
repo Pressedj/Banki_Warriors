@@ -1,7 +1,13 @@
 const Technical = require("../models/Technical");
 module.exports = {
-  getAdminTechnical: (req, res) => {
-    res.render("adminTechnical.ejs");
+  getAdminTechnical: async (req, res) => {
+    try {
+      const technicalQuestionItems = await Technical.find();
+      res.render("adminTechnical.ejs", { technicals: technicalQuestionItems });
+      //we can add more inside the anchor tag if we want to spit more things
+    } catch (err) {
+      console.log(err);
+    }
   },
   createTechnicalQuestion: async (req, res) => {
     try {
