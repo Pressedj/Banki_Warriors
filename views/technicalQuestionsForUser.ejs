@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Banki Warrior</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="#" alt="" />
+        <a href="/admin">Admin</a>
+      </nav>
+    </header>
+    <h1>Welcome to Banki Warriors</h1>
+    <button class="newQuestion">New Question</button>
+    <section class="questionBox">
+      <p>
+        <%=
+        technicalQuestions[Math.floor(Math.random()*technicalQuestions.length)].technicalQuestion%>
+      </p>
+    </section>
+    <button class="showAnswer">Show Answer</button>
+    <section class="answer hidden">
+      <span>Explanation:</span>
+      <p>
+        <%=
+        technicalQuestions[Math.floor(Math.random()*technicalQuestions.length)].technicalAnswerExplanation%>
+      </p>
+      <span>Use:</span>
+      <p>
+        <%=
+        technicalQuestions[Math.floor(Math.random()*technicalQuestions.length)].technicalAnswerUse%>
+      </p>
+      <span>Example:</span>
+      <p>
+        <%=
+        technicalQuestions[Math.floor(Math.random()*technicalQuestions.length)].technicalAnswerExample%>
+      </p>
+      <span>Reference:</span>
+      <a
+        href="<%=
+      technicalQuestions[Math.floor(Math.random()*technicalQuestions.length)].technicalReference%>"
+        ><p>
+          <%=
+          technicalQuestions[Math.floor(Math.random()*technicalQuestions.length)].technicalReference%>
+        </p></a
+      >
+    </section>
+    <script src="js/app.js"></script>
+  </body>
+</html>
