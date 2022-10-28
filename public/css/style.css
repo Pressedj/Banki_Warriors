@@ -1,3 +1,15 @@
 .hidden {
-    display:none;
+  display: none;
+}
+.del {
+  padding: 0.25rem;
+  border: 1px solid red;
+  background: red;
+  cursor: pointer;
+}
+.edit {
+  cursor: pointer;
+}
+li {
+  line-height: 1.5;
 }

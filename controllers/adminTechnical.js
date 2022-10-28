@@ -24,4 +24,15 @@ module.exports = {
       console.log(err);
     }
   },
+  deleteTechnicalQuestion: async (req, res) => {
+    try {
+      await Technical.findOneAndDelete({
+        _id: req.body.technicalQuestionIdFromJSFile,
+      });
+      console.log("Deleted A Technical Quuestion");
+      res.json("A technical question deleted");
+    } catch (err) {
+      console.log(err);
+    }
+  },
 };

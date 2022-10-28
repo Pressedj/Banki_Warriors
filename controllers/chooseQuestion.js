@@ -1,4 +1,5 @@
 const Technical = require("../models/Technical");
+const Behavioral = require("../models/Behavioral");
 
 module.exports = {
   getChooseQuestionPage: (req, res) => {
@@ -16,7 +17,7 @@ module.exports = {
   },
   getBehavioralQuestionsForUser: async (req, res) => {
     try {
-      const behavioralQuestionFroUser = await Technical.find();
+      const behavioralQuestionFroUser = await Behavioral.find();
       res.render("behavioralQuestionsForUser.ejs", {
         behavioralQuestions: behavioralQuestionFroUser,
       });
