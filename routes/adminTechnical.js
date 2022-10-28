@@ -7,5 +7,9 @@ router.post(
   "/createTechnicalQuestion",
   adminTechnicalController.createTechnicalQuestion
 );
+router.delete(
+  "/deleteTechnicalQuestion",
+  adminTechnicalController.deleteTechnicalQuestion
+);
 
 module.exports = router;

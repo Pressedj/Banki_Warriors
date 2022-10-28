@@ -8,4 +8,8 @@ router.post(
   "/createBehavioralQuestion",
   adminBehavioralController.createBehavioralQuestion
 );
+router.delete(
+  "/deleteBehavioralQuestion",
+  adminBehavioralController.deleteBehavioralQuestion
+);
 module.exports = router;
